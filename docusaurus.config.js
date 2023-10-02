@@ -119,10 +119,10 @@ module.exports = async function createConfigAsync() {
         indexName: 'kuizuo',
       },
       giscus: {
-        repo: 'kuizuo/blog',
-        repoId: 'MDEwOlJlcG9zaXRvcnkzOTc2MjU2MTI=',
+        repo: 'kbws13/blog',
+        repoId: 'R_kgDOKa178A',
         category: 'General',
-        categoryId: 'DIC_kwDOF7NJDM4CPK95',
+        categoryId: 'DIC_kwDOKa178M4CZych',
         theme: 'light',
         darkTheme: 'dark',
       },
