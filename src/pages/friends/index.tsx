@@ -18,9 +18,9 @@ function SiteInfo() {
       <CodeBlock language="jsx">
         {`{
   // 本站信息
-  title: '愧怍的小站',
-  description: '道阻且长，行则将至',
-  avatar: 'https://kuizuo.cn/img/logo.png'
+  title: 'KBWS',
+  description: '天地本宽，而鄙者自隘',
+  avatar: 'http://kbws.xyz/api/file/getImage/202307/SkJJbyMgQbVEqlLfZhHfrAhGrnxWeZ.png'
 }`}
       </CodeBlock>
     </div>

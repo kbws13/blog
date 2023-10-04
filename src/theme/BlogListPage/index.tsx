@@ -56,7 +56,6 @@ function BlogListPageContent(props: Props) {
   const { metadata, items } = props
 
   const { viewType, toggleViewType } = useViewType()
-
   const isListView = viewType === 'list'
   const isGridView = viewType === 'grid'
 
