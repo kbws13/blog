@@ -239,7 +239,7 @@ module.exports = async function createConfigAsync() {
     stylesheets: [],
     i18n: {
       defaultLocale: 'zh-CN',
-      locales: ['en', 'zh-CN'],
+      locales: ['zh-CN'],
       localeConfigs: {
         en: {
           htmlLang: 'en-GB',
