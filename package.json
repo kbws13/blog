@@ -10,7 +10,7 @@
     "url": "https://github.com/kbws13/blog",
     "type": "git"
   },
-  "homepage": "https://kuizuo.cn",
+  "homepage": "https://kbws.xyz",
   "license": "MIT",
   "scripts": {
     "docusaurus": "docusaurus",
