@@ -1,6 +1,5 @@
 ---
-id: ant-design-pro
-slug: /ant-design-pro
+slug: ant-design-pro
 title: Ant Design Pro 教程
 date: 2023-12-23
 tags: [前端, Ant Design Pro]
