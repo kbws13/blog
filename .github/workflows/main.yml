@@ -1,4 +1,4 @@
-name: Build app and deploy to Tencent
+name: Auto Deploy
 
 on:
   push:
