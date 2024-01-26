@@ -29,4 +29,4 @@ jobs:
           pass: ${{ secrets.USER_PASS }}
           connect_timeout: 10s
           local: './build/*'
-          remote: /home/blog/build
+          remote: /home/ubuntu/blog/build
