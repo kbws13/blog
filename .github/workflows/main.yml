@@ -19,11 +19,11 @@ jobs:
         run: yarn run build
 
       - name: Deploy
-        uses: easingthemes/ssh-deploy@main
-        env:
+        uses: easingthemes/ssh-deploy@v4.1.10
+        with:
             SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
-            ARGS: -rltgoDzvO --delete
-            SOURCE: ./build/
             REMOTE_HOST: ${{ secrets.USER_HOST }}
             REMOTE_USER: ${{ secrets.USER_NAME }}
+            SOURCE: "/build/"
+            ARGS: -rltgoDzvO --delete
             TARGET: /home/ubuntu/blog/build
