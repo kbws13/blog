@@ -1,26 +1,32 @@
 name: Build app and deploy to Tencent
+
 on:
   push:
     branches:
       - master
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - use: actions/checkout@v2
-    - name: install
-      run: yarn
-    - name: build
-      run: yarn run build
-    - name: Deploy
-      uses: cross-the-world/scp-pipeline@master
-      env:
-        WELCOME: "ssh scp ssh pipelines"
-        LASTSSH: "Doing something after copying"
-      with:
-        host: ${{ secrets.USER_HOST }}
-        user: ${{ secrets.USER_NAME }}
-        pass: ${{ secrets.USER_PASS }}
-        connect_timeout: 10s
-        local: './build/*'
-        remote: /home/blog/build
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: yarn
+
+      - name: Build
+        run: yarn run build
+
+      - name: Deploy
+        uses: cross-the-world/scp-pipeline@master
+        env:
+          WELCOME: "ssh scp ssh pipelines"
+          LASTSSH: "Doing something after copying"
+        with:
+          host: ${{ secrets.USER_HOST }}
+          user: ${{ secrets.USER_NAME }}
+          pass: ${{ secrets.USER_PASS }}
+          connect_timeout: 10s
+          local: './build/*'
+          remote: /home/blog/build
