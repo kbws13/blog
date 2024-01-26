@@ -19,14 +19,11 @@ jobs:
         run: yarn run build
 
       - name: Deploy
-        uses: cross-the-world/scp-pipeline@master
+        uses: easingthemes/ssh-deploy@main
         env:
-          WELCOME: "ssh scp ssh pipelines"
-          LASTSSH: "Doing something after copying"
-        with:
-          host: ${{ secrets.USER_HOST }}
-          user: ${{ secrets.USER_NAME }}
-          pass: ${{ secrets.USER_PASS }}
-          connect_timeout: 10s
-          local: './build/*'
-          remote: /home/ubuntu/blog/build
+          SSH_PRIVATE_KEY: ${{ secrets.SERVER_SSH_KEY }}
+            ARGS: -rltgoDzvO --delete
+            SOURCE: ./build/
+            REMOTE_HOST: ${{ secrets.USER_HOST }}
+            REMOTE_USER: ${{ secrets.USER_NAME }}
+            TARGET: /home/ubuntu/blog/build
