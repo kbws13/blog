@@ -1,12 +1,39 @@
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
   skill: [
-    'skill/introduction',
+    'Skill/introduction',
+    // Project
+    {
+      label: '项目',
+      type: 'category',
+      link: { type: 'generated-index' },
+      items: [
+        // RPC
+        'Skill/Project/rpc',
+        // Online Judge
+        'Skill/Project/oj'
+      ]
+    },
+    // Development
+    {
+      label: '开发笔记',
+      type: 'category',
+      link: {type: 'generated-index'},
+      items: [
+        // 飞书机器人推送线上Bug
+        'Skill/Development/feishu-bot',
+        // 代码沙箱
+        'Skill/Development/codesandbox'
+      ]
+    },
     // Java
     {
       label: 'Java',
       type: 'category',
-      link: { type: 'generated-index' },
+      link: { 
+        type: 'doc',
+        id: 'Skill/Java/java-index'
+      },
       items: [
         // Java SE
         {
@@ -14,198 +41,30 @@ const sidebars = {
           type: 'category',
           link: { type: 'generated-index' },
           items: [
-            {
-              label: '基础语法',
-              type: 'category',
-              link: { type: 'generated-index' },
-              items: [
-                'Typora/Java/Java SE/基础语法/变量',
-                'Typora/Java/Java SE/基础语法/标识符',
-                'Typora/Java/Java SE/基础语法/大数',
-                'Typora/Java/Java SE/基础语法/关键字',
-                'Typora/Java/Java SE/基础语法/基本类型转换',
-                'Typora/Java/Java SE/基础语法/输入输出',
-              ]
-            },
-            {
-              label: '运算符',
-              type: 'category',
-              link: { type: 'generated-index' },
-              items: [
-                'Typora/Java/Java SE/运算符/比较运算符',
-                'Typora/Java/Java SE/运算符/赋值运算符',
-                'Typora/Java/Java SE/运算符/逻辑运算符',
-                'Typora/Java/Java SE/运算符/三元运算符',
-                'Typora/Java/Java SE/运算符/算数运算符',
-                'Typora/Java/Java SE/运算符/位运算符',
-              ]
-            },
-            {
-              label: '数组',
-              type: 'category',
-              link: {type:'generated-index'},
-              items: [
-                'Typora/Java/Java SE/数组/一维数组',
-                'Typora/Java/Java SE/数组/二维数组',
-              ]
-            },
+            
           ]
         },
-        // JDBC
-        'Typora/Java/JDBC/JDBC',
-        // Java Web
-        'Typora/Java/JavaWeb/JavaWeb',
-        // Maven
-        'Typora/Java/Maven/Maven',
-        // MyBatis
-        'Typora/Java/MyBatis/MyBatis',
-        // MyBatis-Plus
-        'Typora/Java/Mybatis-plus/MyBatis-plus',
-        // SpringBoot
-        {
-          label: 'SpringBoot',
-          type: 'category',
-          link: {type: 'generated-index'},
-          items: [
-            'Typora/Java/SpringBoot/SpringBoot',
-            'Typora/Java/SpringBoot/常用依赖',
-            'Typora/Java/SpringBoot/工具类',
-          ]
-        },
-        // Utils
-        {
-          label: 'Utils',
-          type: 'category',
-          link: {type: 'generated-index'},
-          items: [
-            'Typora/Java/Utils/Git/Git',
-            'Typora/Java/Utils/Nginx/Nginx',
-            'Typora/Java/Utils/JSON/JSON',
-            'Typora/Java/Utils/Docker/Docker',
-            'Typora/Java/Utils/Jwt/Jwt',
-            'Typora/Java/Utils/Swagger/Swagger',
-            'Typora/Java/Utils/WebSocket/WebSocket',
-          ]
-        },
-        // 部署
-        'Typora/Java/部署',
-      ]
-    },
-    // 数据结构与算法
-    {
-      label: '数据结构与算法',
-      type: 'category',
-      link: {type: 'generated-index'},
-      items: [
-        'Typora/数据结构与算法/LeetCode/LeetCode',
-      ]
-    },
-    {
-      label: 'Redis',
-      type: 'category',
-      link: {type: 'generated-index'},
-      items: [
-        'Typora/Redis/基础/基础',
-      ]
-    },
-    // 手写Spring
-    {
-      label: '手写Spring',
-      type: 'category',
-      link: {type: 'generated-index'},
-      items: [
-        'Typora/手写Spring/IOC/IOC',
       ]
     },
     // 前端
     {
       label: '前端',
       type: 'category',
-      link: {type: 'generated-index'},
+      link: { type: 'generated-index' },
       items: [
-        'Typora/前端/HTML+CSS/HTML',
-        'Typora/前端/HTML+CSS/CSS',
-        'Typora/前端/JavaScript/JavaScript',
-        'Typora/前端/Vue/Vue',
-        'Typora/前端/Uniapp/Uniapp',
+        "Skill/FrontEnd/ant-design-pro",
       ]
     },
-    // Go
+    // Python
     {
-      label: 'Go',
+      label: 'Python',
       type: 'category',
-      link: {type: 'generated-index'},
+      link: { type: 'generated-index' },
       items: [
-        'Typora/Go/基础/Go基础',
-        'Typora/Go/Gin/Gin',
-        'Typora/Go/Xorm/Xorm',
+        "Skill/Python/virtuaenv"
       ]
-    },
-    // Shell
-    'Typora/Shell/Shell',
-    
-    // {
-    //   label: 'Web',
-    //   type: 'category',
-    //   link: { type: 'generated-index' },
-    //   items: [
-    //     {
-    //       label: 'Vue',
-    //       type: 'category',
-    //       link: { type: 'generated-index' },
-    //       items: [
-    //         'skill/web/vue/vue-reactive-data-object',
-    //         'skill/web/vue/vue-reactive-data-array',
-    //         'skill/web/vue/vue-reactive-data-basic-type',
-    //         'skill/web/vue/pinia',
-    //       ],
-    //     },
-    //     {
-    //       label: 'React',
-    //       type: 'category',
-    //       link: { type: 'generated-index' },
-    //       items: [
-    //         {
-    //           type: 'autogenerated',
-    //           dirName: 'skill/web/react',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       label: 'Css',
-    //       type: 'category',
-    //       link: { type: 'generated-index' },
-    //       items: [
-    //         {
-    //           type: 'autogenerated',
-    //           dirName: 'skill/web/css',
-    //         },
-    //       ],
-    //     },
-    //     {
-    //       label: 'Browser',
-    //       type: 'category',
-    //       link: { type: 'generated-index' },
-    //       items: [
-    //         {
-    //           type: 'autogenerated',
-    //           dirName: 'skill/web/browser',
-    //         },
-    //       ],
-    //     },
-    //   ],
-    // },
+    }
   ],
-  tools: [
-    'tools/introduction',
-    'tools/everything-quick-search-local-files',
-    'tools/wappalyzer-recognize-technology',
-    'tools/windows-custom-right-click-menu',
-    'tools/vscode-config',
-    'tools/idea-config',
-    'tools/vite-plugin',
-    'tools/jetbrains-product-activation-method',
-  ]
 }
 
 module.exports = sidebars

@@ -62,7 +62,7 @@ function BlogListPageContent(props: Props) {
   return (
     <MyLayout>
       <h2 className={styles.blogTitle}>
-        <Translate id="theme.blog.title.new">Blog</Translate>
+        <Translate id="theme.blog.title.new">博客</Translate>
       </h2>
       <p className={styles.blogDescription}>
         May you gain something here

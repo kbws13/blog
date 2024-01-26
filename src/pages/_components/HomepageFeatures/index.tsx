@@ -48,7 +48,19 @@ const FeatureList: FeatureItem[] = [
     Svg: OpenSourceSvg,
     description: (
       <>
-        作为一名技术爱好者，自学过Python，Go，TS等语言，并有过相关项目实践经验。
+        一名技术爱好者，对各种新奇技术感兴趣，看到有意思的技术或者框架会主动去实践
+      </>
+    ),
+  },
+  {
+    title: translate({
+      id: 'homepage.feature.enthusiast',
+      message: '求职中',
+    }),
+    Svg: SpiderSvg,
+    description: (
+      <>
+        在校大学生，希望找到一个好的暑期实习，目标是秋招上岸！
       </>
     ),
   },

@@ -1,5 +1,23 @@
 export const projects: Project[] = [
   {
+    title: 'K-RPC',
+    description: '基于 Netty+Kyro+Zookeeper 实现的自定义 RPC 框架',
+    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240125211728.png',
+    website: 'https://github.com/kbws13/K-RPC',
+    source: 'https://github.com/kbws13/K-RPC',
+    tags: ['opensource', 'favorite'],
+    type: 'web'
+  },
+  {
+    title: 'K-OJ',
+    description: '基于 Vue3+Spring Boot+Spring Cloud 微服务+Docker 的编程题目在线测评系统',
+    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240125212221.png',
+    website: 'http://oj.kbws.xyz',
+    source: 'https://github.com/kbws13/OnlineJudge-backenend',
+    tags: ['opensource', 'favorite'],
+    type: 'web'
+  },
+  {
     title: 'mini-Spring',
     description: '以Spring框架为原型，编写一个迷你版的Spring框架',
     preview: '/img/project/spring.png',
@@ -15,15 +33,6 @@ export const projects: Project[] = [
     website: 'http://netdisk.kbws.xyz',
     source: 'https://github.com/kbws13/Netdisk',
     tags: ['opensource', 'design', 'large'],
-    type: 'web',
-  },
-  {
-    title: 'Java代码生成器',
-    description: '读取数据库中的表自动生成对应CRUD代码',
-    preview: '/img/project/java-code-general.png',
-    website: 'https://github.com/kbws13/Java-Code-Generator',
-    source: 'https://github.com/kbws13/Java-Code-Generator',
-    tags: ['opensource', 'favorite', 'product', 'large'],
     type: 'web',
   },
   // {

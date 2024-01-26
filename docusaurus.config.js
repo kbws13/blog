@@ -15,7 +15,7 @@ module.exports = async function createConfigAsync() {
     organizationName: 'KBWS',
     projectName: 'blog',
     tagline: '天地本宽，而鄙者自隘',
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     themeConfig: {
       // announcementBar: {
       //   id: 'announcementBar-3',
@@ -73,9 +73,7 @@ module.exports = async function createConfigAsync() {
             position: 'right',
             items: [
               { label: '归档', to: 'blog/archive' },
-              { label: '资源', to: 'resource' },
-              { label: '友链', to: 'friends' },
-              { label: '工具推荐', to: 'docs/tools' },
+              // { label: '友链', to: 'friends' },
             ],
           },
         ],
@@ -102,8 +100,8 @@ module.exports = async function createConfigAsync() {
           {
             title: '更多',
             items: [
-              { label: '友链', position: 'right', to: 'friends' },
-              { label: '导航', position: 'right', to: 'resource' },
+              // { label: '友链', position: 'right', to: 'friends' },
+              // { label: '导航', position: 'right', to: 'resource' },
               // { label: '我的站点', position: 'right', to: 'website' },
               {
                 html: `<a href="https://docusaurus.io/zh-CN/" target="_blank"><img style="height:50px;margin-top:0.5rem" src="/img/buildwith.png" /><a/>`,
@@ -114,9 +112,9 @@ module.exports = async function createConfigAsync() {
         copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT KBWS Built with Docusaurus.</p>`,
       },
       algolia: {
-        appId: 'GV6YN1ODMO',
-        apiKey: '50303937b0e4630bec4a20a14e3b7872',
-        indexName: 'kuizuo',
+        appId: 'YPAYNZ7EKW',
+        apiKey: '9c23ca736559368fac7bfd29edd9f87d',
+        indexName: 'kbws',
       },
       giscus: {
         repo: 'kbws13/blog',
