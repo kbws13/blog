@@ -41,7 +41,7 @@ const sidebars = {
           type: 'category',
           link: { type: 'generated-index' },
           items: [
-            
+            "Skill/Java/Java SE/variables and operators",
           ]
         },
       ]
