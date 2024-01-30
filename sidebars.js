@@ -42,6 +42,7 @@ const sidebars = {
           link: { type: 'generated-index' },
           items: [
             "Skill/Java/Java SE/variables and operators",
+            "Skill/Java/Java SE/flow-sontrol-statement"
           ]
         },
       ]
