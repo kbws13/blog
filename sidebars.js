@@ -44,6 +44,7 @@ const sidebars = {
             "Skill/Java/Java SE/variables and operators",
             "Skill/Java/Java SE/flow-sontrol-statement",
             "Skill/Java/Java SE/array",
+            "Skill/Java/Java SE/object-oriented",
           ]
         },
       ]
