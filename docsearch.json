@@ -17,6 +17,7 @@
     "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
+  "aggregateContent": "true",
   "custom_settings": {
     "attributesForFaceting": [
       "type",

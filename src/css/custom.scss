@@ -260,6 +260,11 @@ div[class^='announcementBar_'] {
   white-space: nowrap;
 }
 
+.navbar__items--right .navbar__item .dropdown__menu{
+  min-width: auto;
+  left: 0;
+}
+
 .code-block-error-line {
   background-color: #ff000020;
   display: block;
