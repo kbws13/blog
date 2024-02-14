@@ -1,5 +1,3 @@
-// @ts-check
-
 const path = require('path')
 const beian = '冀ICP备2022027806号-1'
 
@@ -15,7 +13,7 @@ module.exports = async function createConfigAsync() {
     organizationName: 'KBWS',
     projectName: 'blog',
     tagline: '天地本宽，而鄙者自隘',
-    // /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     themeConfig: {
       // announcementBar: {
       //   id: 'announcementBar-3',
