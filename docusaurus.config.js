@@ -111,7 +111,7 @@ module.exports = async function createConfigAsync() {
       },
       algolia: {
         appId: 'YPAYNZ7EKW',
-        apiKey: '9c23ca736559368fac7bfd29edd9f87d',
+        apiKey: '5408d817c53e389b754c1d2265707d46',
         indexName: 'kbws',
         docSearch: {
           lang: " ",
