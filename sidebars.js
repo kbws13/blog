@@ -45,6 +45,7 @@ const sidebars = {
             "Skill/Java/Java SE/flow-sontrol-statement",
             "Skill/Java/Java SE/array",
             "Skill/Java/Java SE/object-oriented",
+            "Skill/Java/Java SE/exception",
           ]
         },
       ]
