@@ -46,6 +46,7 @@ const sidebars = {
             "Skill/Java/Java SE/array",
             "Skill/Java/Java SE/object-oriented",
             "Skill/Java/Java SE/exception",
+            "Skill/Java/Java SE/thread",
           ]
         },
       ]
