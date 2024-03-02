@@ -110,12 +110,9 @@ module.exports = async function createConfigAsync() {
         copyright: `<p><a href="http://beian.miit.gov.cn/" >${beian}</a></p><p>Copyright © 2020 - PRESENT KBWS Built with Docusaurus.</p>`,
       },
       algolia: {
-        appId: 'YPAYNZ7EKW',
-        apiKey: '5408d817c53e389b754c1d2265707d46',
-        indexName: 'kbws',
-        docSearch: {
-          lang: " ",
-        }
+        appId: '7VGKRDKPI6',
+        apiKey: 'fa6dab7170ccdfbe0f208bb8f74f5795',
+        indexName: 'kbws'
       },
       giscus: {
         repo: 'kbws13/blog',
