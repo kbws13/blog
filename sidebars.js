@@ -11,7 +11,18 @@ const sidebars = {
         // RPC
         'Skill/Project/rpc',
         // Online Judge
-        'Skill/Project/oj'
+        {
+          label: 'OnlineJudge',
+          type: 'category',
+          link: { 
+            type: 'doc',
+            id: 'Skill/Project/OnlineJudge/oj-index'
+          },
+          items: [
+            'Skill/Project/OnlineJudge/oj-init'
+          ]
+        },
+        
       ]
     },
     // Development
