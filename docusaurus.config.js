@@ -7,7 +7,7 @@ module.exports = async function createConfigAsync() {
   /** @type {import('@docusaurus/types').Config} */
   return {
     title: 'KBWS - Perosonal Blog Website',
-    url: 'http://kbws.xyz',
+    url: 'https://kbws.xyz',
     baseUrl: '/',
     favicon: 'img/favicon.svg',
     organizationName: 'KBWS',
