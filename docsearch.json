@@ -17,6 +17,8 @@
     "lvl6": "article h6",
     "text": "article p, article li, article td:last-child"
   },
+  "aggregateContent": true,
+  "recordVersion": "v3",
   "custom_settings": {
     "attributesForFaceting": ["type", "lang", "language", "version", "docusaurus_tag"],
     "attributesToRetrieve": ["hierarchy", "content", "anchor", "url", "url_without_anchor", "type"],
