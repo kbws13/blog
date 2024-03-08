@@ -61,6 +61,15 @@ const sidebars = {
             "Skill/Java/Java SE/common-classes-and-apis",
           ]
         },
+        // MySQL
+        {
+          label: 'MySQL',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            "Skill/Java/MySQL/mysql-basic",
+          ]
+        },
       ]
     },
     // 前端
