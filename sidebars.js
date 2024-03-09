@@ -68,6 +68,7 @@ const sidebars = {
           link: { type: 'generated-index' },
           items: [
             "Skill/Java/MySQL/mysql-basic",
+            "Skill/Java/MySQL/mysql-advanced",
           ]
         },
       ]
