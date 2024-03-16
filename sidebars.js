@@ -59,6 +59,7 @@ const sidebars = {
             "Skill/Java/Java SE/exception",
             "Skill/Java/Java SE/thread",
             "Skill/Java/Java SE/common-classes-and-apis",
+            "Skill/Java/Java SE/aggregate",
           ]
         },
         // MySQL
