@@ -9,7 +9,17 @@ const sidebars = {
       link: { type: 'generated-index' },
       items: [
         // RPC
-        'Skill/Project/rpc',
+        {
+          label: 'RPC',
+          type: 'category',
+          link: {
+            type: 'doc',
+            id: 'Skill/Project/RPC/rpc',
+          },
+          items: [
+            'Skill/Project/RPC/rpc-init',
+          ],
+        },
         // Online Judge
         {
           label: 'OnlineJudge',
