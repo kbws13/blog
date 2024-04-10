@@ -82,6 +82,7 @@ const sidebars = {
           items: [
             "Skill/Java/MySQL/mysql-basic",
             "Skill/Java/MySQL/mysql-advanced",
+            "Skill/Java/MySQL/mysql-operation",
           ]
         },
       ]
