@@ -72,6 +72,7 @@ const sidebars = {
             "Skill/Java/Java SE/aggregate",
             "Skill/Java/Java SE/generic-paradigm",
             "Skill/Java/Java SE/file-class-and-io-stream",
+            "Skill/Java/Java SE/network-programming",
           ]
         },
         // MySQL
