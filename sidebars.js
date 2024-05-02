@@ -74,6 +74,7 @@ const sidebars = {
             "Skill/Java/Java SE/file-class-and-io-stream",
             "Skill/Java/Java SE/network-programming",
             "Skill/Java/Java SE/reflection",
+            "Skill/Java/Java SE/new-features",
           ]
         },
         // MySQL
