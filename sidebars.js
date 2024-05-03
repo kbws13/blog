@@ -88,6 +88,8 @@ const sidebars = {
             "Skill/Java/MySQL/mysql-operation",
           ]
         },
+        // Java Web
+        "Skill/Java/java-web",
       ]
     },
     // 前端
