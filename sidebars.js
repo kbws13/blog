@@ -90,6 +90,8 @@ const sidebars = {
         },
         // Java Web
         "Skill/Java/java-web",
+        // Spring
+        "Skill/Java/spring",
       ]
     },
     // 前端
