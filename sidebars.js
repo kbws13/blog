@@ -92,6 +92,8 @@ const sidebars = {
         "Skill/Java/java-web",
         // Spring
         "Skill/Java/spring",
+        // Mybatis Plus
+        "Skill/Java/mybatis-plus",
       ]
     },
     // 前端
