@@ -94,6 +94,15 @@ const sidebars = {
         "Skill/Java/spring",
         // Mybatis Plus
         "Skill/Java/mybatis-plus",
+        // Redis
+        {
+          label: 'Redis',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            "Skill/Java/Redis/redis-basic",
+          ]
+        },
       ]
     },
     // 前端
