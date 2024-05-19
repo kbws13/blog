@@ -103,6 +103,15 @@ const sidebars = {
             "Skill/Java/Redis/redis-basic",
           ]
         },
+        // 消息队列
+        {
+          label: '消息队列',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            "Skill/Java/消息队列/rabbitmq",
+          ]
+        },
       ]
     },
     // 前端
