@@ -18,6 +18,15 @@ export const projects: Project[] = [
     type: 'web'
   },
   {
+    title: 'K-Link',
+    description: '短链接生成项目',
+    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240526162238.png',
+    website: 'http://link.kbws.xyz',
+    source: 'https://github.com/kbws13/K-Link-Backend',
+    tags: ['opensource', 'favorite'],
+    type: 'web'
+  },
+  {
     title: 'mini-Spring',
     description: '以Spring框架为原型，编写一个迷你版的Spring框架',
     preview: '/img/project/spring.png',
@@ -35,41 +44,7 @@ export const projects: Project[] = [
     tags: ['opensource', 'design', 'large'],
     type: 'web',
   },
-  // {
-  //   title: '@kuizuo/http',
-  //   description: '基于 Axios 封装的 HTTP 类库',
-  //   website: 'https://www.npmjs.com/package/@kuizuo/http',
-  //   tags: ['opensource', 'personal'],
-  //   type: 'personal',
-  // },
-  // {
-  //   title: '@kuizuo/utils',
-  //   description: '整理 JavaScript / TypeScript 的相关工具函数',
-  //   website: 'https://www.npmjs.com/package/@kuizuo/utils',
-  //   tags: ['opensource', 'personal'],
-  //   type: 'personal',
-  // },
-  // {
-  //   title: '@kuizuo/eslint-config',
-  //   description: '来自 antfu 的 ESLint 配置文件',
-  //   website: 'https://github.com/kuizuo/eslint-config',
-  //   tags: ['opensource', 'personal'],
-  //   type: 'personal',
-  // },
-  // {
-  //   title: 'browser-rpc',
-  //   description: 'WebSocket 远程调用浏览器函数',
-  //   website: 'https://github.com/kuizuo/rpc-browser',
-  //   tags: ['opensource'],
-  //   type: 'personal',
-  // },
-  // {
-  //   title: 'rust-wasm-md5',
-  //   description: '🦀 Rust + WebAssembly 实现的 MD5 加密',
-  //   website: 'https://github.com/kuizuo/rust-wasm-md5',
-  //   tags: ['opensource'],
-  //   type: 'personal',
-  // },
+  
 ]
 
 export type Tag = {
