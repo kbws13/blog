@@ -94,6 +94,8 @@ const sidebars = {
         "Skill/Java/spring",
         // Mybatis Plus
         "Skill/Java/mybatis-plus",
+        // Spring MVC
+        "Skill/Java/spring-mvc",
         // Redis
         {
           label: 'Redis',
