@@ -114,6 +114,15 @@ const sidebars = {
             "Skill/Java/消息队列/rabbitmq",
           ]
         },
+        // 微服务
+        {
+          label: '微服务',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            "Skill/Java/微服务/eureka",
+          ]
+        },
       ]
     },
     // 前端
