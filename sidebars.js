@@ -118,7 +118,10 @@ const sidebars = {
         {
           label: '微服务',
           type: 'category',
-          link: { type: 'generated-index' },
+          link: { 
+            type: 'doc',
+            id: 'Skill/Java/微服务/microservice-index'
+          },
           items: [
             "Skill/Java/微服务/eureka",
           ]
