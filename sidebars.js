@@ -124,6 +124,7 @@ const sidebars = {
           },
           items: [
             "Skill/Java/微服务/eureka",
+            "Skill/Java/微服务/nacos",
           ]
         },
       ]
