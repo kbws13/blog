@@ -126,6 +126,7 @@ const sidebars = {
             "Skill/Java/微服务/eureka",
             "Skill/Java/微服务/nacos",
             "Skill/Java/微服务/zookeeper",
+            "Skill/Java/微服务/feign",
           ]
         },
       ]
