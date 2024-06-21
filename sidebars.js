@@ -114,6 +114,8 @@ const sidebars = {
             "Skill/Java/消息队列/rabbitmq",
           ]
         },
+        // Nginx
+        "Skill/Java/nginx",
         // 微服务
         {
           label: '微服务',
