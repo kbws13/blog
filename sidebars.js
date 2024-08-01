@@ -88,6 +88,15 @@ const sidebars = {
             "Skill/Java/MySQL/mysql-operation",
           ]
         },
+        // MySQL-Plus
+        {
+          label: 'MySQL-Plus',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            "Skill/Java/MySQL-Plus/mysql-plus-basic",
+          ]
+        },
         // Java Web
         "Skill/Java/java-web",
         // Spring
