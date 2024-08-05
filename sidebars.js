@@ -112,6 +112,7 @@ const sidebars = {
           link: { type: 'generated-index' },
           items: [
             "Skill/Java/Redis/redis-basic",
+            "Skill/Java/Redis/redis-actual-combat",
           ]
         },
         // 消息队列
