@@ -113,6 +113,7 @@ const sidebars = {
           items: [
             "Skill/Java/Redis/redis-basic",
             "Skill/Java/Redis/redis-actual-combat",
+            "Skill/Java/Redis/redis-senior",
           ]
         },
         // 消息队列
