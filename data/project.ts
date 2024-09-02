@@ -1,21 +1,30 @@
 export const projects: Project[] = [
   {
+    title: 'K-OJ',
+    description: '基于 Vue3+Spring Boot+Spring Cloud 微服务+Docker 的编程题目在线测评系统',
+    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240125212221.png',
+    website: 'http://oj.kbws.xyz',
+    source: 'https://github.com/kbws13/OnlineJudge-Backend-MicroService',
+    tags: ['opensource', 'favorite'],
+    type: 'K系列'
+  },
+  {
+    title: 'K-API',
+    description: '提供 API 供开发者调用的平台，基于 Spring Boot 后端+ React 前端的全栈微服务项目',
+    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240902220714.png',
+    website: 'http://api.kbws.xyz',
+    source: 'https://github.com/kbws13/K-API-Backend',
+    tags: ['opensource', 'favorite'],
+    type: 'K系列'
+  },
+  {
     title: 'K-RPC',
     description: '基于 Netty+Kyro+Zookeeper 实现的自定义 RPC 框架',
     preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240125211728.png',
     website: 'https://github.com/kbws13/K-RPC',
     source: 'https://github.com/kbws13/K-RPC',
     tags: ['opensource', 'favorite'],
-    type: 'web'
-  },
-  {
-    title: 'K-OJ',
-    description: '基于 Vue3+Spring Boot+Spring Cloud 微服务+Docker 的编程题目在线测评系统',
-    preview: 'https://blog-1312417182.cos.ap-chengdu.myqcloud.com/blog/20240125212221.png',
-    website: 'http://oj.kbws.xyz',
-    source: 'https://github.com/kbws13/OnlineJudge-backenend',
-    tags: ['opensource', 'favorite'],
-    type: 'web'
+    type: '手写系列'
   },
   {
     title: 'K-Link',
@@ -24,7 +33,7 @@ export const projects: Project[] = [
     website: 'http://link.kbws.xyz',
     source: 'https://github.com/kbws13/K-Link-Backend',
     tags: ['opensource', 'favorite'],
-    type: 'web'
+    type: 'K系列'
   },
   {
     title: 'mini-Spring',
@@ -33,7 +42,7 @@ export const projects: Project[] = [
     website: 'https://github.com/kbws13/mini-Spring',
     source: 'https://github.com/kbws13/mini-Spring',
     tags: ['opensource', 'favorite', 'product'],
-    type: 'web',
+    type: '手写系列',
   },
   {
     title: '个人网盘',
@@ -42,7 +51,7 @@ export const projects: Project[] = [
     website: 'http://netdisk.kbws.xyz',
     source: 'https://github.com/kbws13/Netdisk',
     tags: ['opensource', 'design', 'large'],
-    type: 'web',
+    type: 'K系列',
   },
   
 ]
@@ -61,7 +70,7 @@ export type TagType =
   | 'large'
   | 'personal'
 
-export type ProjectType = 'personal' | 'web' | 'app' | 'toy' | 'other'
+export type ProjectType = 'personal' | 'K系列' | '手写系列' | 'toy' | 'other'
 
 export type Project = {
   title: string

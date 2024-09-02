@@ -1,7 +1,7 @@
 ---
-id: oj-index
-slug: /oj-index
-title: Online Judge
+id: k-oj
+slug: /k-oj
+title: K-OJ
 keywords:
   - oj
   - Online Judge
@@ -9,7 +9,7 @@ keywords:
   - Java
 ---
 ## 项目介绍
-Online Judge 在线判题系统
+K-OJ 在线判题系统
 
 该项目是一个基于 Spring Cloud 微服务 + MQ + Docker 的编程题目测评系统。该系统可以根据题目用例对用户提交的代码进行执行和测评。此外，该系统还提供了一个独立的**自主实现的代码沙箱**，供其他开发者调用。
 ### 项目内容
@@ -20,6 +20,7 @@ Online Judge 在线判题系统
 - 使用 Redisson 实现用户提交题目限流，限制单个用户的提交频率
 - 引入 RabbitMQ 实现消息异步消费，并添加死信队列，避免重复消费
 - 通过使用Java安全管理器和自定义的**安全管理器**，对用户提交的代码进行权限控制。进一步提升代码沙箱的安全性
+- 使用 SSE 实现判题状态实时通知
 ## 技术栈
 ### 环境
 

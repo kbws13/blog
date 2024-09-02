@@ -17,8 +17,14 @@ keywords:
 个人学习笔记、项目开发笔记和需求实现以及一些有意思的小 demo
 
 - 项目
-  - 手写 RPC 框架
-  - Online Judge
+  - K系列
+    - K-OJ
+    - K-API
+    - K-BI
+    - K-Link
+    - NetDisk
+  - 手写系列
+    - 手写RPC
 - Java
   - Java SE
   - MySQL

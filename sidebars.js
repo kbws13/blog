@@ -8,31 +8,24 @@ const sidebars = {
       type: 'category',
       link: { type: 'generated-index' },
       items: [
-        // RPC
-        {
-          label: 'RPC',
-          type: 'category',
-          link: {
-            type: 'doc',
-            id: 'Skill/Project/RPC/rpc',
-          },
-          items: [
-            'Skill/Project/RPC/rpc-init',
-          ],
-        },
         // Online Judge
         {
-          label: 'OnlineJudge',
+          label: 'K系列',
           type: 'category',
-          link: { 
-            type: 'doc',
-            id: 'Skill/Project/OnlineJudge/oj-index'
-          },
+          link: { type: 'generated-index' },
           items: [
-            'Skill/Project/OnlineJudge/oj-init'
+            'Skill/Project/K-Series/k-oj'
           ]
         },
-        
+        // RPC
+        {
+          label: '手写系列',
+          type: 'category',
+          link: { type: 'generated-index' },
+          items: [
+            'Skill/Project/Handwritten-Series/k-rpc',
+          ],
+        },
       ]
     },
     // Development
