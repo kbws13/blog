@@ -92,6 +92,8 @@ const sidebars = {
         },
         // Java Web
         "Skill/Java/java-web",
+        // Gradle
+        "Skill/Java/gradle",
         // Spring
         "Skill/Java/spring",
         // Mybatis Plus
