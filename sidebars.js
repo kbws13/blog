@@ -37,7 +37,9 @@ const sidebars = {
         // 飞书机器人推送线上Bug
         'Skill/Development/feishu-bot',
         // 代码沙箱
-        'Skill/Development/codesandbox'
+        'Skill/Development/codesandbox',
+        // Spring StateMachine 状态机
+        'Skill/Development/spring-stateMachine',
       ]
     },
     // Java
