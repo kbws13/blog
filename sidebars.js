@@ -152,7 +152,15 @@ const sidebars = {
             link: { type: 'generated-index' },
             items: [
                 "Skill/FrontEnd/ant-design-pro",
-                "Skill/FrontEnd/dart",
+            ]
+        },
+        // 移动端
+        {
+            label: '移动端',
+            type: 'category',
+            link: { type: 'generated-index' },
+            items: [
+                "Skill/Mobile/dart",
             ]
         },
         // Python
