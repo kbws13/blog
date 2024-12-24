@@ -160,7 +160,17 @@ const sidebars = {
             type: 'category',
             link: { type: 'generated-index' },
             items: [
+                // Dart
                 "Skill/Mobile/dart",
+                // Flutter
+                {
+                    label: 'Flutter',
+                    type: 'category',
+                    link: { type: 'generated-index' },
+                    items: [
+                        "Skill/Mobile/Flutter/flutter-basic",
+                    ]
+                },
             ]
         },
         // Python
